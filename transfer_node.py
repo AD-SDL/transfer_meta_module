@@ -38,7 +38,7 @@ class TransferNode(RestNode):
     def startup_handler(self):
         self.reserved_dict = {}
         for node in self.config.nodes:
-            reserved_dict[node] = False
+            self.reserved_dict[node] = False
         self.workcell_client = WorkcellClient(workcell_manager_url=self.config.workcell_server_url)
         self.resource_client = ResourceClient(self.config.resource_server_url)
         self.reservation_lock = Lock()
