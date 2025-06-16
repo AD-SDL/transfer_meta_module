@@ -7,6 +7,7 @@ from madsci.common.types.action_types import (
 )
 from madsci.common.types.node_types import RestNodeConfig
 from madsci.node_module.rest_node_module import RestNode
+from madsci.node_module.helpers import action
 
 from madsci.client.resource_client import ResourceClient
 from madsci.client.workcell_client import WorkcellClient
