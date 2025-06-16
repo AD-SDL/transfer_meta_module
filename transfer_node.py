@@ -92,5 +92,5 @@ class TransferNode(RestNode):
  
 
 if __name__ == "__main__":
-    big_kahuna_node = TransferNode()
-    big_kahuna_node.start_node()
+    transfer_node = TransferNode()
+    transfer_node.start_node()
